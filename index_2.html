@@ -8,24 +8,38 @@
     <title>Document</title>
     <style>
         li {
+            width: 100px;
             list-style-type: none;
-            max-width: 33%;
-            float: left;
         }
 
         li img {
             width: 100%;
         }
 
-        @media screen and (max-width: 640px){
+        @media screen and (min-width: 1366px) {
            body {
             background-color: red;
             
            }
            li {
-            max-width: 100%;
+            max-width: 33%;
+            float: left;
            }
         }
+
+        @media screen and (orientation: portrait) and (max-width: 640px) {
+           body {
+            background-color: aqua;
+           }
+        }
+
+        @media print {
+            h3 {
+                color: blueviolet;
+            }
+        }
+
+
     </style>
 </head>
 <body>
