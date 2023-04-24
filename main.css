@@ -4,14 +4,21 @@
     padding: 0;
 }
 
-img {
-    max-width: 300px;
-    display: block;
+h1,
+p {
+    font-size: 1em;
+}
+
+section {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 div {
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-    margin: 16px 0;
+    height: 1em;
+    width: 1em;
+    background-color: red;
 }
